@@ -15,6 +15,17 @@ export const SwalInitial = ()=>{
       });
      
 }
+export const SwalStarter = ()=>{
+  Swal.fire({
+      title: "User Task",
+      // showConfirmButton: false,
+      text: "Somewhere in the house a fuse has been switched off. Solve this problem as you have been taught.",
+      buttons: true,
+      confirmButtonColor: "#085CA8",
+      confirmButtonText: "Okay",
+    });
+   
+}
 
 
 

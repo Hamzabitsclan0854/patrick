@@ -28,16 +28,6 @@ import {
 } from "../../Components/SwalModules";
 const RightNavBar = (props) => {
 
-  console.log(props.toiletFan)
-  console.log(props.toiletLight)
-  console.log(props.hallLamp)
-  console.log(props.hallLight01)
-  console.log(props.hallLight02)
-  console.log(props.livingRadio)
-  console.log(props.livingLight01)
-  console.log(props.livingAC)
-  console.log(props.livingLight03)
-
   const dispatch = useDispatch();
   let navigate = useNavigate();
   const location = useLocation()

@@ -28,12 +28,12 @@ const Attic = (props) => {
   const isHurray = useSelector((state) => state.HurrayReducer.hurry)
   return (
     <>
- <div style={{display:'none'}}>
-      <AtticModel 
-      isModalOpen={isModalOpen}
-      setIsModalOpen={setIsModalOpen}
-      />
-    </div>
+      {/* <div style={{display:'none'}}>
+        <AtticModel 
+        isModalOpen={isModalOpen}
+        setIsModalOpen={setIsModalOpen}
+        />
+      </div> */}
       <div className="error-page">
         <ErrorPage />
       </div>

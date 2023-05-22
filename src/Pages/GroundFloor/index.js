@@ -44,12 +44,13 @@ const GroundFloor = (props) => {
 
   return (
     <>
-      <div style={{ display: "none" }}>
+
+      {/* <div style={{ display: "none" }}>
         <GroundFloorModel
           setIsModalOpen2={setIsModalOpen2}
           isModalOpen2={isModalOpen2}
         />
-      </div>
+      </div> */}
 
       <div className="error-page">
         <ErrorPage />

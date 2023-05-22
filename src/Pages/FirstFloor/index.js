@@ -31,12 +31,12 @@ const FirstFloor = (props) => {
   const isHurray = useSelector((state) => state.HurrayReducer.hurry)
   return (
     <>
-      <div style={{display:'none'}}>
+      {/* <div style={{display:'none'}}>
         <FirstFloorModel 
         isModalOpen={isModalOpen1}
         setIsModalOpen={setIsModalOpen1}
         />
-      </div>
+      </div> */}
       <div className="error-page">
         <ErrorPage />
       </div>

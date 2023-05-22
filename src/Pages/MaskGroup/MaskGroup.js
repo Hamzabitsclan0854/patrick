@@ -5,6 +5,7 @@ import { useNavigate } from "react-router-dom";
 import ErrorPage from "../404/ErrorPage";
 import Avator from "../Components/Avator";
 import FrontScreenModel from "../Components/FrontScreenModel";
+import {SwalStarter} from "../Components/SwalModules"
 // import AtticModel from "../../PopUpModels/AtticModel";
 // import FirstFloorModel from "../../PopUpModels/FirstFloorModel";
 // import GroundFloorModel from "../../PopUpModels/GroundFloorModel"
@@ -16,7 +17,9 @@ const MaskGroup = () => {
   const [showAttic,setShowAttic] = useState(false)
   // const [showFirstFloor,setshowFirstFloor] = useState(false)
   // const [showGroundFloor,setshowGroundFloor] = useState(false)
-
+  // const showModal = () => {
+  //   props.setIsModalOpen2(true);
+  // };
 
 
   return (
@@ -72,8 +75,8 @@ const MaskGroup = () => {
               onClick={() => {
                 // setShowAttic(true)
                 navigate("/ground-floor");
-        localStorage.setItem('state', JSON.stringify(-4))
-
+                SwalStarter();
+                localStorage.setItem('state', JSON.stringify(-4))
               }}
             >
               Open !

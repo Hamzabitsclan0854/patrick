@@ -4,8 +4,6 @@ import { useNavigate } from "react-router-dom";
 import React, { useState, useEffect } from "react";
 
 const FirstFloorModel = (props) => {
-
-
   useEffect(() => {
     props.setIsModalOpen2(true);
   }, []);

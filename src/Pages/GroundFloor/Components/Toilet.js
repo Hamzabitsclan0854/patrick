@@ -44,8 +44,6 @@ const Toilet = (props) => {
       SwalBreakerOff()
       props.setGroundFloorTrial(props.groundFloorTrial + 1);
       localStorage.setItem('state', JSON.stringify(props.groundFloorTrial +1))
-
-      console.log("trial of toilet",props.groundFloorTrial);
     }
     props.setCompleteCorruptDevice(val);
     if (val === 1) {
