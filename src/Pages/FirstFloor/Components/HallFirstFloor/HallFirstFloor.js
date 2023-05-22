@@ -149,7 +149,7 @@ const HallFirstFloor = (props) => {
 
               }}
             >
-          Attic
+          Attic Floor
             </button>
             <button
               // className={firstBtn === "attic" ? 'btn-01-maskGroup' : "btn-maskGroup mb-4 "}
@@ -166,7 +166,7 @@ const HallFirstFloor = (props) => {
                 navigate("/ground-floor");
               }}
             >
-          Ground
+          Ground Floor
             </button>
             <button
               // className={firstBtn === "attic" ? 'btn-01-maskGroup' : "btn-maskGroup mb-4 "}

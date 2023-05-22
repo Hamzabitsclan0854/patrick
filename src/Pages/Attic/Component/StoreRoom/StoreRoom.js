@@ -260,7 +260,7 @@ const StoreRoom = (props) => {
           </div>
           <div  className='position-heading-bottom'>
             <h1 className='heading-bottom' >
-                Store Room
+                Storage Room
             </h1>
           </div>
         </div>
