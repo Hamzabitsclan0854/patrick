@@ -183,7 +183,7 @@ const HallFirstFloor = (props) => {
                 navigate("/first-floor/bed-room");
               }}
             >
-          Bed Room 
+          Bed Room 03
             </button> <button
               // className={firstBtn === "attic" ? 'btn-01-maskGroup' : "btn-maskGroup mb-4 "}
               className={"btn-maskGroup set-btn-hall-first-toilet"}
@@ -215,7 +215,7 @@ const HallFirstFloor = (props) => {
                 navigate("/first-floor/living-room01");
               }}
             >
-          Living01 
+          Bedroom 01
             </button> <button
               // className={firstBtn === "attic" ? 'btn-01-maskGroup' : "btn-maskGroup mb-4 "}
               className={"btn-maskGroup set-btn-hall-first-living2"}
@@ -231,7 +231,7 @@ const HallFirstFloor = (props) => {
                 navigate("/first-floor/living-room02");
               }}
             >
-          Living02
+          Bedroom 02
             </button>
             {/* end my code 12/29...................... */}
 

@@ -8,7 +8,7 @@ export const SwalInitial = ()=>{
     Swal.fire({
         title: "You Can't On The Breaker 	&#128542",
         // showConfirmButton: false,
-        text: "One device is not working propperly you have to first disconnect all the devices",
+        text: "One device is not working properly you have to first disconnect all the devices",
         buttons: true,
         confirmButtonColor: "#085CA8",
         confirmButtonText: "I Understand",

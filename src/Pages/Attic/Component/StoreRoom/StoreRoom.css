@@ -20,13 +20,13 @@
 
 .div-store-light03-on{
     position: absolute;
-    right: 41vw;
-    top: 38vh;
+    right: 38vw;
+    top: 42vh;
 }
 .div-store-light03{
     position: absolute;
-    right: 41vw;
-    top: 38vh;
+    right: 38vw;
+    top: 42vh;
 }
 .disconnected-brightness {
     filter: brightness(0.5);

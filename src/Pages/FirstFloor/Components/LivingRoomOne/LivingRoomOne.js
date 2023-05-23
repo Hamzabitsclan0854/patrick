@@ -386,7 +386,7 @@ const LivingRoomOne = (props) => {
           </div>
           <div  className='position-heading-bottom'>
             <h1 className='heading-bottom' >
-                Living Room 01
+                Bedroom 01
             </h1>
           </div>
         </div>

@@ -1328,7 +1328,7 @@ const RightNavBar = (props) => {
           {/* GROUP 1 */}
           <div className="set-legend-text">
             <p>Group&nbsp;1:</p> 
-            <p className="grp-detail">Toilet, Living room, Hall</p>
+            <p className="grp-detail">Hall, Toilet, Living room</p>
           </div>
           {/* GROUP 2 */}
           <div className="set-legend-text">
@@ -1338,17 +1338,17 @@ const RightNavBar = (props) => {
           {/* GROUP 3 */}
           <div className="set-legend-text">
             <p>Group&nbsp;3:</p> 
-            <p className="grp-detail">living room 01, living room 02</p>
+            <p className="grp-detail">Bedroom 01, Bedroom 02</p>
           </div>
           {/* GROUP 4 */}
           <div className="set-legend-text">
             <p>Group&nbsp;4:</p> 
-            <p className="grp-detail">Toilet, Bed Room, Hall</p>
+            <p className="grp-detail">Hall, Toilet, Bedroom 03</p>
           </div>
           {/* GROUP 5 */}
           <div className="set-legend-text">
             <p>Group&nbsp;5:</p> 
-            <p className="grp-detail">guest room, study room, hall, storage room</p>
+            <p className="grp-detail">hall, guest room, study room, storage room</p>
           </div>
           {/* GROUP 6 */}
           <div className="set-legend-text">
