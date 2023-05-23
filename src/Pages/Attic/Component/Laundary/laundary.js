@@ -270,7 +270,7 @@ const Laundary = (props) => {
 
            
           </div>
-          <div  style={{ position:'absolute',left: '50%', bottom:'0%'}}>
+          <div  style={{ position:'absolute',left: '50%', bottom:'0%',transform: 'translateX(-50%)'}}>
             <h1 className='heading-bottom' >
                 Laundary
             </h1>

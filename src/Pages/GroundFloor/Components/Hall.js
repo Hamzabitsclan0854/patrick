@@ -319,7 +319,7 @@ const Hall = (props) => {
             {/* end my code 12/28.......................... */}
 
           </div>
-          <div  style={{ position:'absolute',left: '50%', bottom:'0%'}}>
+          <div  style={{ position:'absolute',left: '50%', bottom:'0%',transform: 'translateX(-50%)'}}>
             <h1 className='heading-bottom' >
                 Hall
             </h1>

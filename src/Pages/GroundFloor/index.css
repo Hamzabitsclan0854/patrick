@@ -12,13 +12,19 @@ height: 100uh;
 .position-heading-bottom{
   position: absolute;
   bottom: 0%;
-  left: 45%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .heading-bottom{
   color: #000;
   font-weight: 900;
   font-family: 'Nunito', sans-serif;
-  font-size: 28px;
+  font-size: 38px;
+  background-color: rgba(255,255,255,0.6);
+  padding: 2px 12px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-bottom: 0px;
   /* text-shadow:0 2px 3px #747474, 1px 3px 4px #fff, 0 8px 3px #e7e7e7, 0 11px 4px #ffffff, 0 14px 4px #ffffff, 0 17px 4px #d7d7d7, 0 20px 4px #d7cfcf; */
 }
 
