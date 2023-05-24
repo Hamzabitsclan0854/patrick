@@ -261,8 +261,8 @@ const Laundary = (props) => {
                   height:
                     props.isLaundaryBreaker === true &&
                     props.laundaryLight02 === "connected"
-                    ? "6vh"
-                      : "6vh",
+                    ? "9vh"
+                      : "9vh",
                 }}
                 alt=""
               />
