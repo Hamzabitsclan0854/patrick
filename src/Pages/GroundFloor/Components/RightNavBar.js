@@ -1326,6 +1326,9 @@ const RightNavBar = (props) => {
         <hr style={{ marginTop: "2%" }} />
         <div className="legend">
           {/* GROUP 1 */}
+          <div className="text-start">
+            <Link to="/ground-floor"  className="set-link-color">Ground Floor</Link>
+          </div>
           <div className="set-legend-text">
             <p>Group&nbsp;1:</p> 
             <p className="grp-detail">Hall, Toilet, Living room</p>
@@ -1336,6 +1339,9 @@ const RightNavBar = (props) => {
             <p className="grp-detail">Kitchen</p>
           </div>
           {/* GROUP 3 */}
+          <div className="text-start">
+            <Link to="/first-floor"  className="set-link-color">First Floor</Link>
+          </div>
           <div className="set-legend-text">
             <p>Group&nbsp;3:</p> 
             <p className="grp-detail">Bedroom 01, Bedroom 02</p>
@@ -1344,6 +1350,9 @@ const RightNavBar = (props) => {
           <div className="set-legend-text">
             <p>Group&nbsp;4:</p> 
             <p className="grp-detail">Hall, Toilet, Bedroom 03</p>
+          </div>
+          <div className="text-start">
+            <Link to="/attic" className="set-link-color">Attic Floor</Link>
           </div>
           {/* GROUP 5 */}
           <div className="set-legend-text">
