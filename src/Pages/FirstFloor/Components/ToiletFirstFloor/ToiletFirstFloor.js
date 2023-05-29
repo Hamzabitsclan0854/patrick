@@ -68,7 +68,7 @@ const ToiletFirstFloor = (props) => {
       {props.gamePhaseGroup4 === "toilet" ? (
         <div
           style={{
-            backgroundImage: `url(${
+            backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.2) 100%),url(${
               process.env.PUBLIC_URL + "/images/FullToiletFirst.png"
             })`,
             height: "100%",

@@ -80,7 +80,7 @@ const Hall = (props) => {
       {/* {props.gamePhase === "hall" ? ( */}
         <div
           style={{
-            backgroundImage: `url(${process.env.PUBLIC_URL + "/images/full-hall-ground.png"})`,
+            backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.2) 100%), url(${process.env.PUBLIC_URL + "/images/full-hall-ground.png"})`,
             height: "100%",
             width: "100%",
             border: "2px dotted white",
